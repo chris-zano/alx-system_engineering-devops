@@ -1,4 +1,4 @@
-# SHELL BASICS PROJECT
-## This is a project on Shell Basics on ALX SE
-### In this project, I am to complete all tasks on the projects
+# 0x01-shell_permissions
+## This readme will contain the meaning of all the commands i will use in this project
+### They are :
 
