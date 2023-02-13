@@ -1,0 +1,54 @@
+#!/bin/bash
+echo "Hello World"
+#!/bin/bash
+echo "\"(Óo)'"
+#!/bin/bash
+find . -type f -name "*.js" -delete
+#!/bin/bash
+find . -empty | rev | cut -d '/' -f 1 | rev
+#!/bin/bash
+find -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+#!/bin/bash
+echo $(cut -c1 | tr -d " \n")
+#!/bin/bash
+tail -n +2 | cut -f -l | dort -k l | uniq -c | sort -rnk l | head -ll | rev | cut -d ' ' -f -l | rev
+#!/bin/bash
+find . -type d ! -path . | wc -l
+#!/bin/bash
+ls -t . | head
+#!/bin/bash
+sort | uniq -u
+#!/bin/bash
+egrep "root" /etc/passwd
+#!/bin/bash
+egrep -C "bin" /etc/passwd
+#!/bin/bash
+egrep -A 3 "root" /etc/passwd
+#!/bin/bash
+egrep -V "bin" /etc/passwd
+#!/bin/bash
+egrep ^[[:alpha:]] /etc/ssh/sshd_config
+#!/bin/bash
+tr 'Ac' 'Ze'
+#!/bin/bash
+cat /etc/passwd
+#!/bin/bash
+tr -d cC
+#!/bin/bash
+rev
+#!/bin/bash
+cut -d ':' -f 1,6 /etc/passwd | sort
+#!/bin/bash
+cat /etc/passwd /etc/hosts
+#!/bin/bash
+tail /etc/passwd
+#!/bin/bash
+head /etc/passwd
+#!/bin/bash
+head -3 iacta | tail -1
+#!/bin/bash
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+#!/bin/bash
+ls -la > ls_cwd_content
+#!/bin/bash
+tail -1 iacta >> iacta
