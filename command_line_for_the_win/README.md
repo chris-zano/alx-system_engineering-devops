@@ -1,5 +1,5 @@
 ## sftp username@host
-* username@host's password:
+* username@host's password: ******************
 * ___Connected to host___
 ## sftp> ls
 ```shell
