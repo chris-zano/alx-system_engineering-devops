@@ -1,6 +1,6 @@
-## sftp 926baf3306ba@926baf3306ba.9afdad52.alx-cod.online
-* 926baf3306ba@926baf3306ba.9afdad52.alx-cod.online's password:
-* ___Connected to 926baf3306ba.9afdad52.alx-cod.online.___
+## sftp username@host
+* username@host's password:
+* ___Connected to host___
 ## sftp> ls
 ```shell
 alx     bin     boot    dev     etc     home    lib     lib32   lib64   libx32  media   mnt     opt     proc    root    run     sbin    srv
