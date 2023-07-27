@@ -7,8 +7,5 @@
 #+ dash is displayed (refer to the example)
 
 for file in *; do
-	if [ -f "$file" ]; then
-		newname=$(echo "$file" | sed -E 's/^[^-]+-//')
-		echo "$newname"
-	fi
+	echo "$file" | cut -d '-' -f 2;
 done
