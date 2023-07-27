@@ -9,7 +9,7 @@
 * [File test operators](https://intranet.alxswe.com/rltoken/g8of2ABPEJfCNtPrDQaqVw)
 * [Make your scripts portable](https://intranet.alxswe.com/rltoken/O0Ay21p7tDhfLMsYbtAKug)
 
-## ___man or help:___
+### ___man or help:___
 * env
 * cut
 * for
