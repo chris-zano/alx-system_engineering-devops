@@ -1,0 +1,7 @@
+# SSh config file
+
+Host *
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
+	User ubuntu
+	Hostname 34.207.63.66
